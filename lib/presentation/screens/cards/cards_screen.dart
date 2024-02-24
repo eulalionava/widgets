@@ -20,7 +20,7 @@ class CardsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('cards Screen'),
       ),
-      body: _CardsView(),
+      body:const _CardsView(),
     );
   }
 }
@@ -179,7 +179,7 @@ class _CardType4 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = Theme.of(context).colorScheme;
+    // final colors = Theme.of(context).colorScheme;
 
     return Card(
       clipBehavior: Clip.hardEdge,
